@@ -3,9 +3,11 @@ p{
     margin: 50px;
     border: 2px;
     border-color: black;
+    border-style: solid;
 }
 
 img{
+    float: right;
     padding: 15px;
     border-image-width: 350px;
 }
