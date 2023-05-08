@@ -1,0 +1,14 @@
+p{
+    background-color: lightgrey;
+    margin: 50px;
+    border: 2px;
+    border-color: black;
+}
+
+img{
+    padding: 15px;
+    border-image-width: 350px;
+}
+h1{
+    color: orange;
+}
