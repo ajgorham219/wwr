@@ -6,6 +6,7 @@ nav a{
     text-align: center;
     color: #7bd389;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -22,32 +23,45 @@ nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: #396E94;
 }
 body{
     background-color: #fcfbfb;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
-    background-color:rgba(20,30,13, .7);
+    background-color:#396E94;
 }
 nav a:hover{
-    background-color: black;
+    background-color: #46acc2;
     color: #d9c2a3;
 }
 .home-title h4{
     color: #7bd389;
 }
-.book{
-    background-color: #396E94;
-    color: #7bd389;
-    text-decoration: none;
+.home-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
-.join{
-    background-color: #396E94;
-    color: #7bd389;
+.book, .join{
+    background-color: #e09f3e;
+    color: #46acc2;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #46acc2;
@@ -60,16 +74,22 @@ nav a:hover{
 .msg{
     background-color: #396E94;
     color: #7bd389;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #7bd389;
 }
-.msp p{
+.msg p{
     color: #7bd389;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #396E94;
     color: #7bd389;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #7bd389;
@@ -80,6 +100,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
@@ -89,4 +110,22 @@ footer p a:hover{
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px black;
 }
