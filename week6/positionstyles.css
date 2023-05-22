@@ -41,29 +41,30 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  margin-top: -50px;
+
   grid-row: 1/4;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-row: 1/4;
+  grid-column: 2/4;
+  grid-row: 2/4;
   
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold;
-  margin-top: -50px;
+  grid-column: 3/4;
   grid-row: 3/4;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue;
-
-  grid-row: 3/4;
+  grid-column: 4/4;
+  grid-row: 4/4;
 } 
 /* Activity 3 styles */ 
 .content3 {
