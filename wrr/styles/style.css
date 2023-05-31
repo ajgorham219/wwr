@@ -85,6 +85,28 @@ nav a:hover{
     font-size: .8em;
     padding-bottom: 15px;
 }
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px black;
+}
 footer{
     background-color: #396E94;
     color: #7bd389;
@@ -98,34 +120,12 @@ footer a{
 footer a:hover{
     color: white;
 }
-.icon{
-    width: 80px;
-    padding-top: 10px;
-}
 footer p{
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
 }
-.logo{
-    width: 80px;
-}
-#logo_link{
-    padding-top: 5px;
-}
 footer .social img{
     padding-top: 15px;
-}
-.rivers-card{
-    margin: 200px 0;
-}
-.camping-card{
-    margin: 200px 0;
-}
-.rapids-card{
-    margin: 200px 0;
-}
-.card-img{
-    border: 10px black;
 }
