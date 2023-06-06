@@ -52,6 +52,7 @@ h2{
 }
 header{
     background-color:#396E94;
+    opacity: .9;
     display: grid;
     grid-template-columns: 150px auto;
 }
