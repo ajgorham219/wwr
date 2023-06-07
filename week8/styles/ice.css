@@ -1,0 +1,45 @@
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 80px 50px 50px 20px ;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1/7;
+}
+h1{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+h3{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+#email{
+    grid-row: 3;
+}
+#name{
+    grid-row: 4;
+}
+input{
+    grid-column: 2/4;
+}
+.push{
+    height: 15px;
+    width: 10px;
+    grid-row: 5;
+    vertical-align: middle;
+}
+a{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
