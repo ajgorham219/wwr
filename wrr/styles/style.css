@@ -90,7 +90,7 @@ nav a:hover{
 }
 .book, .join{
     background-color: #e09f3e;
-    color: #46acc2;
+    color: #234863;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -106,13 +106,13 @@ nav a:hover{
     color: white;
 }
 .msg{
-    background-color: #396E94;
+    background-color: #234863;
     color: #7bd389;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #396E94;
+    box-shadow: 5px 5px 10px #265272;
 }
 .msg h2{
     color: #7bd389;
