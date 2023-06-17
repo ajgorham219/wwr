@@ -190,6 +190,20 @@ footer p a:hover{
 footer .social img{
     padding-top: 15px;
 }
+.rivers{
+    background-color: #5c4742;
+    color: #1c699c;
+    padding-bottom: 10px;
+}
+.salmon{
+    width: 100%;
+}
+.desolation{
+    width: 100%;
+}
+.canyon{
+    width: 100%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid{
         display: block;
