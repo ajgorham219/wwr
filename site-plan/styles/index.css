@@ -131,7 +131,7 @@ body{
   padding: 0;
 }
 #info{
-  width: 80%;
+  padding: 50px;
 }
 footer{
   background-color: #396E94;
@@ -147,7 +147,7 @@ footer a{
   text-decoration: none;
 }
 footer a:hover{
-  color: white;
+  color: #46acc2;
 }
 footer p{
   font-size: 1.2em;
