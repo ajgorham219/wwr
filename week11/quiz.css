@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(135deg, #DEC73D, #62DF83);
+    background: repeating-linear-gradient(45deg, #DEC73D, #62DF83);
 }
 #card{
     background-color: #FEFEFE;
