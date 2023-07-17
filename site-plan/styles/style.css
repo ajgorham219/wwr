@@ -94,6 +94,16 @@ img {vertical-align: middle;}
   margin: 0 auto;
   background-color: #7d553e;
 }
+#plan_content{
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #7d553e; 
+}
+#material_content{
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #7d553e;
+}
 header{
   background-color:#396E94;
   opacity: .9;
@@ -154,4 +164,20 @@ footer p{
 }
 footer p a:hover{
   text-decoration: underline;
+}
+
+
+.plans{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 25px;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+img{
+  height: 200px;
+}
+span{
+  font-weight: bold;
 }
