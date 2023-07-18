@@ -165,6 +165,12 @@ footer p{
 footer p a:hover{
   text-decoration: underline;
 }
+.slide{
+  height: auto;
+}
+.facebook{
+  height: 100px;
+}
 
 
 .plans{
@@ -197,6 +203,14 @@ span{
   text-align: center;
 }
 .interior{
+  grid-column: 4/7;
+  text-align: center;
+}
+.faucet{
+  grid-column: 1/4;
+  text-align: center;
+}
+.window{
   grid-column: 4/7;
   text-align: center;
 }
