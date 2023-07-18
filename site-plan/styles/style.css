@@ -185,4 +185,18 @@ span{
 .materials{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin: 10px;
+}
+.heading{
+  grid-column: 1/7;
+  text-align: center;
+}
+.exterior{
+  grid-column: 1/4;
+  text-align: center;
+}
+.interior{
+  grid-column: 4/7;
+  text-align: center;
 }
